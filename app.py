@@ -7,7 +7,7 @@ from ultralytics import YOLO  # Thư viện YOLOv8
 app = Flask(__name__)
 
 # Load hai model YOLO
-model1 = YOLO("trainYoLo.pt")
+model1 = YOLO("trainYoLO.pt")
 model2 = YOLO("trainYoLo2c.pt")
 
 @app.route('/')
