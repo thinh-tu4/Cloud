@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # Load hai model YOLO
 model1 = YOLO("trainYoLo.pt")
-model2 = YOLO("trainYoLo2.pt")
+model2 = YOLO("trainYoLo2c.pt")
 
 @app.route('/')
 def home():
