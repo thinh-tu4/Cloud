@@ -4,4 +4,4 @@ ultralytics
 torch
 numpy
 pillow
-werkzeug
+gunicorn
